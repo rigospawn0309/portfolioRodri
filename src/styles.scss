@@ -16,3 +16,40 @@
 @import "./sass/sections/contact";
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
+
+
+/* Estilos para skills con barras */
+.skill-group {
+    margin-top: 1rem;
+  }
+  
+  .skill {
+    margin-bottom: 0.8rem;
+  
+    span {
+      display: block;
+      font-weight: 500;
+      margin-bottom: 0.2rem;
+    }
+  
+    .skill-bar {
+      background-color: #e0e0e0;
+      border-radius: 4px;
+      overflow: hidden;
+      height: 10px;
+    }
+  
+    .skill-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      border-radius: 4px;
+      transition: width 0.6s ease;
+    }
+  
+    .level-1 { width: 20%; }
+    .level-2 { width: 40%; }
+    .level-3 { width: 60%; }
+    .level-4 { width: 80%; }
+    .level-5 { width: 100%; }
+  }
+  
